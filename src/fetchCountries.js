@@ -7,8 +7,8 @@ export function fetchCountries(name) {
     .then(response => {
       return response.json();
     })
-    .then(name => {
-      console.log(name);
+    .then(countries => {
+      console.log(countries);
     })
     .catch(error => {
       console.log(error);
