@@ -77,13 +77,11 @@ class Countries {
             <span class="country-name">${official}</span>
             </div>
             <p class='country-info'>Capital:
-            <span class='country-info__details'>${capital}</span></p>
+            <span class='country-span'>${capital}</span></p>
             <p class='country-info'>Population:
-            <span class='country-info__details'>${population}</span></p>
+            <span class='country-span'>${population}</span></p>
             <p class='country-info'>Languages:
-            <span class='country-info__details'>${Object.values(
-              languages
-            )}</span></p>
+            <span class='country-span'>${Object.values(languages)}</span></p>
     `;
   }
 }
